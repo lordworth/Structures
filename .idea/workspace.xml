@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a142d89-6768-46ca-a784-4a55b83b7330" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/implementations/Stack.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/implementations/LinkedList.java" afterPath="$PROJECT_DIR$/src/implementations/LinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/implementations/Stack.java" afterPath="$PROJECT_DIR$/src/implementations/Stack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="Stack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/implementations/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="17">
+              <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -281,12 +280,12 @@
       <updated>1530355694811</updated>
       <workItem from="1530355698604" duration="6618000" />
       <workItem from="1530378115901" duration="27000" />
-      <workItem from="1530421121919" duration="923000" />
+      <workItem from="1530421121919" duration="1022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7568000" />
+    <option name="totallyTimeSpent" value="7667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
@@ -422,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/implementations/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
           <folding />
         </state>
       </provider>
