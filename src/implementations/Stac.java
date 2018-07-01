@@ -9,20 +9,34 @@ public class Stac<T extends Comparable<T>> implements Stack<T> {
         if(root==null){
             root=newNode;
         }
+        else {
+            newNode.setParent(root);
+            root=newNode;
+        }
+
+
     }
 
     @Override
     public T peek() {
-        return null;
+        return root.getData();
     }
 
     @Override
     public T pop() {
-        return null;
+        Node<T> oldroot=root;
+        root=root.getParent();
+        oldroot.setParent(null);
+        return oldroot.getData();
+
     }
 
     @Override
     public void traverse() {
+        while (root!=null){
+            System.out.println(root.getData());
+            root=root.getParent();
+        }
 
     }
 }

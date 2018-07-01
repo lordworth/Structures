@@ -2,16 +2,28 @@ package implementations;
 
 public class Main {
     public static void main(String[] args){
-        List<Integer> list=new LinkedList<>();
+//        List<Integer> list=new LinkedList<>();
+//
+//        list.add(1);
+//        list.add(5);
+//        list.add(5);
+//        list.add(14);
+//
+//        //list.traverse();
+//
+//        list.remove(14);
+//        list.traverse();
+        Stack<Integer> stack=new Stac<>();
 
-        list.add(1);
-        list.add(5);
-        list.add(5);
-        list.add(14);
+        stack.push(2);
+        stack.push(5);
+        stack.push(89);
 
-        //list.traverse();
+        //stack.pop();
+        //stack.pop();
 
-        list.remove(14);
-        list.traverse();
+        //System.out.println(stack.peek());
+
+        stack.traverse();
     }
 }
