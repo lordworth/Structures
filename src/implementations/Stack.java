@@ -5,4 +5,5 @@ public interface Stack<T> {
     public void push(T element);
     public T peek();
     public T pop();
+    public void traverse();
 }
