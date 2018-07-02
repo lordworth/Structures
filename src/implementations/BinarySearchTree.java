@@ -6,7 +6,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements Tree<T>{
     @Override
     public void addNode(T element) {
         NodeB<T> newNode= new NodeB<>(element);
-        
+
 
 
     }
