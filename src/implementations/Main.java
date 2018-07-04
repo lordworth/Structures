@@ -59,7 +59,7 @@ public class Main {
         if(obj==null){return null;};
 
         for(int p=0;p<obj.length;p++){
-            //System.out.println(obj[p].toString());
+            System.out.print(obj[p].toString()+" ===");
             response.append(obj[p]);
         }
 
@@ -109,8 +109,13 @@ public class Main {
 
             String[][] newQn={new String[]{part1.toString()},remove(ask,i)};
 
-            System.out.print(part1+" -> ");
-            System.out.println(part2);
+            //System.out.print
+
+            //System.out.print(part1+" -> ");
+            //System.out.println(part2);
+            printarray(computer(newQn));
+
+            newQn=null;
 
             part1.delete(0,part1.length());
             part2.delete(0,part2.length());
@@ -119,5 +124,26 @@ public class Main {
 
 
         return part1;
+    }
+
+    public static String[] computer(String[][] input){
+
+        ArrayList resp=new ArrayList();
+
+        String parts=printarray(input[1]);
+
+        for(int j=0;j<parts.length();j++){
+            resp.add(input[0][0]+parts.charAt(j));
+        }
+
+        String[] compString=new String[resp.size()];
+        int count=0;
+        for(Object obj:resp){
+            compString[count]=(String)obj;
+            count++;
+
+        }
+
+        return compString;
     }
 }
